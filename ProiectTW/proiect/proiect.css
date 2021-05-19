@@ -1,0 +1,380 @@
+html {
+    font-family: 'Farro', sans-serif;
+    color: #08FDD8;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(27, 26, 26);
+}
+
+main {
+    background-color: rgb(20, 20, 20);
+    margin-left: -0.4rem;
+    margin-right: -0.4rem;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+}
+
+::-webkit-scrollbar {
+    width: 20px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-bottom: 3px solid rgb(39, 38, 38);
+    border-right: 3px solid rgb(39, 38, 38);
+    border-top: 3px solid rgb(128, 125, 125);
+    border-left: 3px solid rgb(128, 125, 125);
+    background: -webkit-gradient(linear, left top, left bottom, from(#474949), to(#252525));
+    box-shadow: inset 2px 2px 2px rgba(255, 255, 255, 0.25), inset -2px -2px -2px rgba(0, 0, 0, 0.25);
+}
+
+::-webkit-scrollbar-track {
+    background: linear-gradient(to right, #201c29, #201c29 1px, black 1px, black) ;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.header1:before {
+    content: '<header>';
+    color: #515152;
+    font-family: 'La Belle Aurore', cursive;
+    font-size: 1.3rem;
+    position: absolute;
+    left: 1rem;
+    top: 0rem;
+    text-shadow: none;
+    letter-spacing: 3px;
+
+}
+
+.header1:after {
+    content: '</header>';
+    color: #515152;
+    font-family: 'La Belle Aurore', cursive;
+    font-size: 1.3rem;
+    position: absolute;
+    left: 1rem;
+    bottom: 0rem;
+    text-shadow: none;
+    letter-spacing: 3px;
+}
+
+.h1-class {
+    font-size: 8em;
+    letter-spacing: 15px;
+    width: 100%;
+    text-align: center;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, #08fdd880);
+    line-height: 0.70em;
+    outline: none; 
+    text-shadow: 0 0 10px #17a08b,
+    0 0 20px #17a08b,
+    0 0 40px #17a08b,
+    0 0 80px #17a08b,
+    0 0 160px #17a08b;
+}
+
+.h1-class:before {
+    content: '<h1>';
+    color: #515152;
+    font-family: 'La Belle Aurore', cursive;
+    font-size: 1.3rem;
+    left: 9rem;
+    margin-top: -5.5rem;
+    text-shadow: none;
+    letter-spacing: 3px;
+    font-weight: lighter;
+}
+
+.h1-class:after {
+    content: '</h1>';
+    color: #515152;
+    font-family: 'La Belle Aurore', cursive;
+    font-size: 1.3rem;
+    margin-left: 2rem;
+    margin-top: 3.8rem;
+    text-shadow: none;
+    letter-spacing: 3px;
+    font-weight: lighter;
+}
+
+.h2-class {
+    font-size: 3em;
+    letter-spacing: 10px;
+}
+
+.h2-class:before {
+    content: '<h2>';
+    color: #515152;
+    font-family: 'La Belle Aurore', cursive;
+    font-size: 1.3rem;
+    left: 25rem;
+    margin-top: -2rem;
+    text-shadow: none;
+    letter-spacing: 3px;
+    font-weight: lighter;
+}
+
+.h2-class:after {
+    content: '</h2>';
+    color: #515152;
+    font-family: 'La Belle Aurore', cursive;
+    font-size: 1.3rem;
+    margin-top: 3.3rem;
+    left: 25rem;
+    text-shadow: none;
+    letter-spacing: 3px;
+    font-weight: lighter;
+}
+
+p {
+    margin-top: 50px;
+    color: white;
+}
+
+p:before {
+    content: '<p>';
+    color: #515152;
+    font-family: 'La Belle Aurore', cursive;
+    font-size: 1.3rem;
+    text-shadow: none;
+    letter-spacing: 3px;
+    left: 17rem;
+    top: 34.5rem;
+}
+
+p:after {
+    content: '</p>';
+    color: #515152;
+    font-family: 'La Belle Aurore', cursive;
+    font-size: 1.3rem;
+    text-shadow: none;
+    letter-spacing: 3px;
+    right: 16.5rem;
+    top: 34.5rem;
+}
+
+a {
+    margin-top: 50px;
+    color: #08FDD8;
+}
+
+
+#buton1 {
+    top: 50px;
+}
+
+#buton2 {
+    top: 100px;
+}
+
+#buton3 {
+    top : 150px;
+}
+
+#buton4 {
+    top: 200px;
+}
+
+div.buton {
+    background-color: #08FDD8;
+    color: #515152;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    border: none;
+    border-radius: 30px;
+    width: 300px;
+    height: 40px;
+    position: fixed;
+    left: 1175px;
+    transition: .5s ease;
+    z-index: 1;
+}
+
+div.buton:hover {
+    background-color: #FF0B56;
+    position: fixed;
+    color: white;
+    left: 950px;
+    width: 490px;
+    box-shadow: 0px 5px 0px #be0a40;
+}
+
+div.buton:active {
+    background-color: white;
+    color: #FF0B56;
+    box-shadow: 0px 5px 0px rgb(168, 164, 164);
+}
+
+.h1-main {
+    padding-left: 2rem;
+    padding-top: 2rem;
+    color: #FF0B56;
+    font-size: 40px;
+}
+
+hr {
+    border: 1px solid rgb(41, 40, 40);
+    border-radius: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.text {
+    font-size: 15px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-weight: lighter;
+}
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.imagine {
+    height: 350px;
+    width: 251px;
+}
+
+.imagine:hover {
+    opacity: 0.5;
+    transition: .2s ease;
+}
+
+.lista {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.chenar {
+    background-color: black;
+    margin: 2rem;
+    border: 1px solid rgb(41, 40, 40);
+    border-radius: 20px;
+}
+
+.input1 {
+    margin-top: 55px;
+    margin-bottom: 0px;
+    height: 40px;
+    background: rgb(27, 26, 26);
+    color: #515152;
+    border: none;
+}
+
+.input1:hover {
+    background: rgb(68, 66, 66);
+    color: white;
+}
+
+.buton {
+    height: 40px;
+    margin-top: 55px;
+    margin-left: 10px;
+    margin-bottom: 30px;
+    background: rgb(27, 26, 26);
+    color: #515152;
+    text-align: center;
+    border: none;
+}
+
+.buton:hover {
+    background: rgb(68, 66, 66);
+    color: white;
+}
+
+.adaugare {
+    display: flex;
+    flex-direction: column;
+}
+
+.addinput {
+    height: 80px;
+    background: black;
+    color: #515152;
+    border: none;
+    margin: 10px;
+    margin-left: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    width: 500px;
+}
+
+.addinput:hover {
+    background: rgb(68, 66, 66);
+    color: white;
+}
+
+.addbutton {
+    height: 80px;
+    margin-left: 10px;
+    background: black;
+    color: #515152;
+    text-align: center;
+    border: none;
+    width: 400px;
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+.addbutton:hover {
+    background: rgb(68, 66, 66);
+    color: white;
+}
+
+
+@media (max-width: 1270px) and (min-width: 768px) {
+    .h1-class {
+        font-size: 100px;
+    }
+    .flex {
+        display: flex;
+        flex-direction: column;
+    }
+    .imagine {
+        width: 50%;
+        height: 400px;
+    }
+
+
+}
+
+@media (max-width: 768px) {
+    .h1-class {
+        font-size:50px;
+    }
+    .h2-class {
+        font-size: 40px;
+    }
+    p {
+        font-size: 15px;
+    }
+    .flex {
+        display: flex;
+        flex-direction: column;
+    }
+    .imagine {
+        width: 100%;
+        height: 500px;
+    }
+    .chenar {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+}

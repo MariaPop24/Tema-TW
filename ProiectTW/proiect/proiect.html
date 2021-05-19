@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Farro&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="proiect.css">
+  <link rel="icon" href="letter-b-icon-png-8875.png" type="image.gif">
+  <title>BestMovies</title>
+</head>
+<body>
+    <header id="header-part" class="header1">
+        <h2 class="h2-class">Welcome to</h2>
+        <h1 class="h1-class">BestMovies</h1>
+        <p>Site-ul unde poti gasi cele mai bune 10 filme conform rating-ului 
+            <a href="https://www.imdb.com/chart/top/" target="_blank">IMDb</a></p>
+        <a href="#header-part">
+            <div id="buton1" class="buton">HOME</div>
+        </a>
+        <a href="#main-part">
+            <div id="buton2" class="buton">MOVIES</div>
+        </a>
+        <a href="#lista">
+            <div id="buton3" class="buton">LIST</div>
+        </a>
+        <a href="#creare">
+            <div id="buton4" class="buton">CREATE</div>
+        </a>
+    </header>
+    <main id="main-part">
+        <section class="flex">
+            <section class="item">
+                <h1 class="h1-main">Ce conține acest site?</h1>
+                <p class="text">Aceasta pagina cuprinde cele mai bune 10 filme din istoria cinematografiei. 
+                    Lista a fost facuta pe baza voturilor a milioane de utilizatori.</p>
+            </section>
+            <hr>
+            <section class="item">
+                <h1 class="h1-main">Cum funcționează această secțiune?</h1>
+                <p class="text">Puteti reevalua dupa bunul plac fiecare dintre aceste filme, iar in functie de 
+                    nota <br>acordata, acesta va ramane sau nu in lista. Daca nota este minim 5, filmul va ramane in 
+                    lista, insa cu rating-ul acordat anterior, iar in caz contrar, va disparea.</p>
+            </section>
+        </section>
+        <div id="list" class="list">
+            <img class="imagine" src="https://m.media-amazon.com/images/M/MV5BMDFkYTc0MGEtZmNhMC00ZDIzLWFmNTEtODM1ZmRlYWMwMWFmXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UY1200_CR89,0,630,1200_AL_.jpg">
+            <img class="imagine" src="https://m.media-amazon.com/images/M/MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UY1200_CR107,0,630,1200_AL_.jpg">
+            <img class="imagine" src="https://m.media-amazon.com/images/M/MV5BMWMwMGQzZTItY2JlNC00OWZiLWIyMDctNDk2ZDQ2YjRjMWQ0XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg">
+            <img class="imagine" src="https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_.jpg">
+            <img class="imagine" src="https://upload.wikimedia.org/wikipedia/commons/b/b5/12_Angry_Men_%281957_film_poster%29.jpg">
+            <img class="imagine" src="https://m.media-amazon.com/images/M/MV5BNDE4OTMxMTctNmRhYy00NWE2LTg3YzItYTk3M2UwOTU5Njg4XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg">
+            <img class="imagine" src="https://m.media-amazon.com/images/I/71X6YzwV0gL._AC_.jpg">
+            <img class="imagine" src="https://static.posters.cz/image/750/postere/pulp-fiction-cover-i1288.jpg">
+            <img class="imagine" src="https://images-na.ssl-images-amazon.com/images/I/51DtjdUgIRL._AC_.jpg">
+            <img class="imagine" src="https://images-na.ssl-images-amazon.com/images/I/81EBp0vOZZL._AC_SL1329_.jpg">
+        </div>
+        <div id ="lista" class="lista">
+        </div>
+
+        <section class="adaugare" id="creare">
+            <input id="addfilm1" type="text" class="addinput" placeholder="Scrieti numele unui film care va place">
+            <input id="addfilm2" type="text" class="addinput" placeholder="Scrieti anul aparitiei filmului ales">
+            <input id="addfilm3" type="text" class="addinput" placeholder="Scrieti durata">
+            <input id="addfilm4" type="text" class="addinput" placeholder="Scrieti genul">
+            <input id="addfilm5" type="text" class="addinput" placeholder="Scrieti nota">
+            <input id="addfilm6" type="text" class="addinput" placeholder="Adaugati link-ul posterului">
+            <input id="addfilm7" type="text" class="addinput" placeholder="Scrieti o descriere">
+            
+        </section>
+        <button id="addbutton" class="addbutton" onclick="adaugare()">OK</button>
+    </main>
+    <script src="proiect.js"></script>
+</body>
+
+</html>

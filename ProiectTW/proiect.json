@@ -1,0 +1,104 @@
+{
+  "filme": [
+      {
+          "id": 1,
+          "nume": "The Shawshank Redemption",
+          "an": 1994,
+          "durata": "2h 22min",
+          "gen": "Drama",
+          "nota": 9.3,
+          "poster": "https://m.media-amazon.com/images/M/MV5BMDFkYTc0MGEtZmNhMC00ZDIzLWFmNTEtODM1ZmRlYWMwMWFmXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UY1200_CR89,0,630,1200_AL_.jpg",
+          "descriere": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency."
+      },
+      {
+          "id": 2,
+          "nume": "The Godfather",
+          "an": 1972,
+          "durata": "2h 55min",
+          "gen": "Crime, Drama",
+          "nota": 9.2,
+          "poster": "https://m.media-amazon.com/images/M/MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UY1200_CR107,0,630,1200_AL_.jpg",
+          "descriere": "An organized crime dynasty's aging patriarch transfers control of his clandestine empire to his reluctant son."
+      },
+      {
+          "id": 3,
+          "nume": "The Godfather: Part II",
+          "an": 1974,
+          "durata": "3h 22min",
+          "gen": "Crime, Drama",
+          "nota": 9.0,
+          "poster": "https://m.media-amazon.com/images/M/MV5BMWMwMGQzZTItY2JlNC00OWZiLWIyMDctNDk2ZDQ2YjRjMWQ0XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg",
+          "descriere": "The early life and career of Vito Corleone in 1920s New York City is portrayed, while his son, Michael, expands and tightens his grip on the family crime syndicate."
+      },
+      {
+          "id": 4,
+          "nume": "The Dark Knight",
+          "an": 2008,
+          "durata": "2h 32min",
+          "gen": "Action, Crime, Drama",
+          "nota": 9.0,
+          "poster": "https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_.jpg",
+          "descriere": "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice."
+      },
+      {
+          "id": 5,
+          "nume": "12 Angry Men",
+          "an": 1957,
+          "durata": "1h 36min",
+          "gen": "Crime, Drama",
+          "nota": 9.0,
+          "poster": "https://upload.wikimedia.org/wikipedia/commons/b/b5/12_Angry_Men_%281957_film_poster%29.jpg",
+          "descriere": "A jury holdout attempts to prevent a miscarriage of justice by forcing his colleagues to reconsider the evidence."
+      },
+      {
+          "id": 6,
+          "nume": "Schindler's List",
+          "an": 1993,
+          "durata": "3h 15min",
+          "gen": "Biography, Drama, History",
+          "nota": 8.9,
+          "poster": "https://m.media-amazon.com/images/M/MV5BNDE4OTMxMTctNmRhYy00NWE2LTg3YzItYTk3M2UwOTU5Njg4XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg",
+          "descriere": "In German-occupied Poland during World War II, industrialist Oskar Schindler gradually becomes concerned for his Jewish workforce after witnessing their persecution by the Nazis."
+      },
+      {
+          "id": 7,
+          "nume": "The Lord of the Rings: The Return of the King",
+          "an": 2003,
+          "durata": "3h 21min",
+          "gen": "Action, Adventure, Drama",
+          "nota": 8.9,
+          "poster": "https://m.media-amazon.com/images/I/71X6YzwV0gL._AC_.jpg",
+          "descriere": "Gandalf and Aragorn lead the World of Men against Sauron's army to draw his gaze from Frodo and Sam as they approach Mount Doom with the One Ring."
+      },
+      {
+          "id": 8,
+          "nume": "Pulp Fiction",
+          "an": 1994,
+          "durata": "2h 34min",
+          "gen": "Crime, Drama",
+          "nota": 8.9,
+          "poster": "https://static.posters.cz/image/750/postere/pulp-fiction-cover-i1288.jpg",
+          "descriere": "The lives of two mob hitmen, a boxer, a gangster and his wife, and a pair of diner bandits intertwine in four tales of violence and redemption."
+      },
+      {
+          "id": 9,
+          "nume": "The Good, the Bad and the Ugly",
+          "an": 1966,
+          "durata": "2h 58min",
+          "gen": "Western",
+          "nota": 8.8,
+          "poster": "https://images-na.ssl-images-amazon.com/images/I/51DtjdUgIRL._AC_.jpg",
+          "descriere": "A bounty hunting scam joins two men in an uneasy alliance against a third in a race to find a fortune in gold buried in a remote cemetery."
+      },
+      {
+          "id": 10,
+          "nume": "The Lord of the Rings: The Fellowship of the Ring",
+          "an": 2001,
+          "durata": "2h 58min",
+          "gen": "Action, Adventure, Drama",
+          "nota": 8.8,
+          "poster": "https://images-na.ssl-images-amazon.com/images/I/81EBp0vOZZL._AC_SL1329_.jpg",
+          "descriere": "A meek Hobbit from the Shire and eight companions set out on a journey to destroy the powerful One Ring and save Middle-earth from the Dark Lord Sauron."
+      }
+  ]
+}
